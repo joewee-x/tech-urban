@@ -8,8 +8,20 @@
 <body>
     <main>
         <section>
-            <nav class="fixed w-full bg-[url('img/Rectangle 48.png')]">
-                <!-- <div class=""><img src="/img/Rectangle 48.png" alt=""></div> -->
+            <nav class="fixed w-full -z-50">
+                <div class="relative"><img class="h-16 sm:h-20 md:h-30 w-full" src="/img/Rectangle-48.png" alt=""></div>
+                <div class="flex justify-between items-center w-92% sm:w-[95%] md:w-[98%] absolute top-0">
+                    <div><img class="w-16 h-12 sm:w-20 sm:h-16 md:w-25 md:h-20" src="/img/logo.png" alt=""></div>
+                    <div class="hidden md:block">
+                        <ul class="flex gap-5 text-white">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden md:block"><button class="bg-[#ECA922] px-5 py-1 rounded-full"> Register</button></div>
+                </div>
             </nav>
         </section>
     </main>
