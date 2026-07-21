@@ -404,6 +404,9 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
+  .h-12 {
+    height: calc(var(--spacing) * 12);
+  }
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
@@ -466,6 +469,9 @@
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
+  }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
@@ -570,6 +576,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -731,6 +740,9 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
+  }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
   }
@@ -848,6 +860,10 @@
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+  .shadow-sm {
+    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
   .shadow-xl {
     --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -873,6 +889,9 @@
     }
     .sm\:left-6 {
       left: calc(var(--spacing) * 6);
+    }
+    .sm\:mb-10 {
+      margin-bottom: calc(var(--spacing) * 10);
     }
     .sm\:h-1 {
       height: var(--spacing);
@@ -930,6 +949,9 @@
     }
     .sm\:w-8 {
       width: calc(var(--spacing) * 8);
+    }
+    .sm\:w-16 {
+      width: calc(var(--spacing) * 16);
     }
     .sm\:w-20 {
       width: calc(var(--spacing) * 20);
@@ -1004,6 +1026,9 @@
     .sm\:py-14 {
       padding-block: calc(var(--spacing) * 14);
     }
+    .sm\:py-16 {
+      padding-block: calc(var(--spacing) * 16);
+    }
     .sm\:py-20 {
       padding-block: calc(var(--spacing) * 20);
     }
@@ -1045,6 +1070,9 @@
     .md\:h-18 {
       height: calc(var(--spacing) * 18);
     }
+    .md\:h-20 {
+      height: calc(var(--spacing) * 20);
+    }
     .md\:h-30 {
       height: calc(var(--spacing) * 30);
     }
@@ -1056,6 +1084,9 @@
     }
     .md\:w-18 {
       width: calc(var(--spacing) * 18);
+    }
+    .md\:w-20 {
+      width: calc(var(--spacing) * 20);
     }
     .md\:w-\[30\%\] {
       width: 30%;
@@ -1071,6 +1102,9 @@
     }
     .md\:flex-row {
       flex-direction: row;
+    }
+    .md\:gap-10 {
+      gap: calc(var(--spacing) * 10);
     }
     .md\:px-16 {
       padding-inline: calc(var(--spacing) * 16);
